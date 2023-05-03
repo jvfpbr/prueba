@@ -1,0 +1,52 @@
+body{
+    background-image: url(../IMG/fondo2.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+   
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+}
+h1{color: palevioletred;
+    font-size: 100px;
+    text-align: center;
+}
+h2{color: pink;
+    font-size: 80px;
+    text-align: center;
+}
+h3{
+    font-size: 60px;
+}
+h4{
+    font-size: 60px;
+}
+ol{
+    margin: 80px;
+    padding: 15px 30px;
+    border: 15px solid lightblue;
+    font-size: 25;
+}
+.uno{
+text-align: center;
+}
+#icon{
+    color: aqua;
+}
+@media (min-width: 700px) and (max-width: 900px) {
+    .h1 { width: 33%; }
+ }
+.texto1{
+    clear: right;
+ }
+ section img{
+    float:right;
+    margin-right: 20px;
+ }
+.padre{
+    display: flex;
+  justify-content: center;
+   align-items: center;
+    height: 40px;
+ }
